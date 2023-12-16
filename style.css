@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+label {
+	font-size: 20px;
+	
+}
+
+h2 input{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 15px ;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 20px;
+    box-shadow: 10px 6px 10px -1px #000000;
+}
+button {
+	background: #cbcbcb;
+	padding: 10px;
+	width: 150px;
+	font-weight: 500;
+	margin: 10px 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+button:focus, button:hover {
+	background-color: black;
+	color: white;
+} */
+p {
+	text-align: center;
+	
+}
+#postCredit {
+	/* background-color: powderblue;
+	color: black; */
+	margin: 20px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+	/* border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px; */
+	
+}
+#postCredit p{
+	color: #e6f204;
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+	color: rgb(1, 32, 238);
+	display: block;
+	padding: 10px;
+	border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+	background-color: #cbcbcb;
+	width: 50%;
+}
+a:hover {
+	background-color: #000000;
+	color: rgb(1, 32, 238);
+}
+#disBlock{
+    align-items: center;
+	color: #4dd616;
+	font-weight: 700;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    color: #fff;
+    padding: 10px;
+}
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+h1 img{
+	height: 50px;
+    margin: 3px 1px;
+}
+.calculator h1 span{
+    color: rgb(246, 213, 50);
+}
+.calculator h1{
+    font-size: 60px;
+}
+form{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+}
+form input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+
